@@ -64,7 +64,7 @@ app.command("/rinibot-help", async ({ ack, respond }) => {
 /rinibot-joke - Get a random joke
 /rinibot-quote - Get a random quote
 /rinibot-passwordmaker - Generate a random password
-/rinibot-genshinde - Start or guess today’s Genshin character
+/rinibot-randomgenshin - Get a random genshin character
 /rinibot-arttips - Get a random art tip
 /rinibot-emoticons - Get a list of cool emoticons`
   });
@@ -120,10 +120,10 @@ app.command("/rinibot-passwordmaker", async ({ ack, respond }) => {
     await respond({ text: "Failed to generate a password." });
   }
 });
-app.command("/rinibot-genshinguesser", async ({ ack, respond }) => {
+app.command("/rinibot-randomgenshin", async ({ ack, respond }) => {
   await ack();
   try{
-    const response = await axios.get("https://api.genshin.dev/characters");
+    const response = await axios.get("https://genshin-impact.fandom.com/wiki/Character/List");
     const characters = Array.isArray(response.data) ? response.data : Object.keys(response.data);
     const randomCharacter = characters[Math.floor(Math.random() * characters.length)];
     await respond({
