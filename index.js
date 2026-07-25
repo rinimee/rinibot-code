@@ -146,6 +146,7 @@ app.command("/rinibot-emoticons", async ({ ack, respond }) => {
 4. ${emoticons[3]}
 5. ${emoticons[4]}
 6. ${emoticons[5]}
-7. ${emoticons[6]}`
+7. ${emoticons[6]}
+Copy and paste your favorite!`
   });
 });
