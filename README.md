@@ -9,4 +9,4 @@
 > ### *what are you waiting for?*  
 > **try her out now!**  
 > ⋆ ˚｡⋆୨♡୧⋆ ˚｡⋆  
-> `made with vscode .js, nest server, and slack api` ☆ ～('▽^人)
+> `made with vscode .js, nest server, clarification w/copilot and gemini, and slack api` ☆ ～('▽^人)
