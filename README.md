@@ -14,14 +14,15 @@
 > ⚝ make passwords for you!  
 > ⚝ give you a bunch of kaomojis!
 > ＊•̩̩͙✩•̩̩͙˚＊✧✩˚＊•̩̩͙✩•̩̩͙˚＊
+> 
 > > ### *list of commands:* 
-> ⚝ /rinibot-ping - Check bot latency
-> ⚝ /rinibot-catfact - Get a cat fact
-> ⚝ /rinibot-favcatfact - Favorite cat plus a cat fact
-> ⚝ /rinibot-joke - Get a random joke
-> ⚝ /rinibot-passwordmaker - Generate a random password
-> ⚝ /rinibot-arttips - Get a random art tip
-> ⚝ /rinibot-emoticons - Get a list of cool emoticons`
+> ⚝ /rinibot-ping - Check bot latency<br>
+> ⚝ /rinibot-catfact - Get a cat fact<br>
+> ⚝ /rinibot-favcatfact - Favorite cat plus a cat fact<br>
+> ⚝ /rinibot-joke - Get a random joke<br>
+> ⚝ /rinibot-passwordmaker - Generate a random password<br>
+> ⚝ /rinibot-arttips - Get a random art tip<br>
+> ⚝ /rinibot-emoticons - Get a list of cool emoticons
 >
 > ## *oh? you want to run her locally?*
 > to run rinibot locally, make sure you have node.js of v24 or higher, git installed, and a slack workspace where you can install apps.
